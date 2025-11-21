@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'LoginPage.dart';
-
+import 'ListViewDemo.dart';
 class SignUpPage extends StatefulWidget {
   const SignUpPage({super.key});
 
@@ -76,6 +76,11 @@ class _SignUpPageState extends State<SignUpPage> {
 
 
 
+                      Navigator.push(
+                        context,
+                        MaterialPageRoute(builder: (context) => ListViewDemo()),
+                      );
+                    
 
 
                   },
