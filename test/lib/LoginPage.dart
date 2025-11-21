@@ -101,7 +101,7 @@ class _LoginpageState extends State<Loginpage> {
 emailcontroller.clear();
 passwordcontroller.clear();
 confirmpasscontroller.clear();
-
+Navigator.pop(context);
                   },
                   style: ElevatedButton.styleFrom(
                     backgroundColor: Color(0xFFFAEBD7),
