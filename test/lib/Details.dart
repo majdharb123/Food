@@ -79,7 +79,7 @@ class _DetailsState extends State<Details> {
                     ? Image.network(
                         widget.image.startsWith('http')
                             ? widget.image
-                            : "http://127.0.0.1:5000/uploads/${widget.image}",
+                            : "https://food-kghd.onrender.com/uploads/${widget.image}",
                         width: double.infinity,
                         height: 300,
                         fit: BoxFit.cover,

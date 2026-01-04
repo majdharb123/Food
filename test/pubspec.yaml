@@ -65,14 +65,14 @@ flutter:
 
 
 
-  assets:
-    - assets/chicken.jpg
-    - assets/chicken2.jpg
-    - assets/fish.jpg
-    - assets/steak.jpg
-    - assets/soup2.jpg
-    - assets/soup.jpg
-    - assets/salmon.jpg
+  # assets:
+  #   - assets/chicken.jpg
+  #   - assets/chicken2.jpg
+  #   - assets/fish.jpg
+  #   - assets/steak.jpg
+  #   - assets/soup2.jpg
+  #   - assets/soup.jpg
+  #   - assets/salmon.jpg
    
 
   # An image asset can refer to one or more resolution-specific "variants", see
