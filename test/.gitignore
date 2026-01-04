@@ -5,7 +5,10 @@
 *.swp
 .DS_Store
 .atom/
-.build/
+# git add .
+git commit -m "build flutter web"
+git push origin main
+
 .buildlog/
 .history
 .svn/
